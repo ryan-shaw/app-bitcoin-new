@@ -294,8 +294,8 @@ typedef struct btchip_altcoin_config_s {
     unsigned long bip32_pubkey_version;
 
     // legacy
-    unsigned short bip44_coin_type;
-    unsigned short bip44_coin_type2;
+    unsigned int bip44_coin_type;
+    unsigned int bip44_coin_type2;
     unsigned short p2pkh_version;
     unsigned short p2sh_version;
     unsigned char family;
